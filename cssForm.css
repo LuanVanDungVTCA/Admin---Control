@@ -1,0 +1,62 @@
+/* form{
+    text-align: center;
+} */
+.row{
+    display: flex;
+}
+.form{
+    margin-left:25%;
+}
+input{
+    border: 1.3px solid gray;
+    border-radius: 3px;
+    background-color: whitesmoke;
+
+}
+label{
+    text-align: left;
+    width: 8rem;
+   
+}
+button{
+    background-color: mediumblue;
+    border: 1px solid mediumblue;
+    border-radius: 4px;
+    width: 4rem; 
+    height: 2rem;
+    color: white;
+    /* margin-left: -42rem; */
+}
+#Err{
+    color: red;
+    padding-left: 72px;
+}
+.button{
+  padding-left: 8.7rem;
+}
+table{
+    background: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 3px; 
+    
+}
+tr:nth-child(even){
+   background-color: white;
+   border: none;
+  
+}
+.logout{
+    background-color: yellow;
+    color: black;
+    margin-left: 22rem;
+}
+.container{
+    margin-left: 35rem;
+    margin-right: 12rem;
+}
+.header{
+ display: flex;
+}
+h1{
+    margin-left: 3.6rem;
+}
